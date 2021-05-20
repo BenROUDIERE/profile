@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@300&family=Pattaya&family=Source+Sans+Pro:wght@300&display=swap');
+
+body {
+  font-family: 'KoHo', sans-serif;
+  font-size: 20px;
+  font-weight: 1em;
+  line-height: 1em;
+  color: #28abb9;
+  display: block;
+  margin: 8px;
+  background: #7d98a1;
+}
+
+h1 {
+  font-family: 'KoHo', sans-serif;
+  font-weight: bold;
+  line-height: 1em;
+  color: #2d6187;
+}
+
+h2 {
+  font-family: 'KoHo', sans-serif;
+  font-weight: bold;
+  line-height: 1,1em;
+  color: #28abb9;
+  }
+
+a {
+  font-family: 'KoHo', sans-serif;
+  line-height: 1em;
+  color: #98d2eb;
+  display: block;
+  width: 100px;
+  margin: 40px auto;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #bcd39c;
+}
+
+.btn-red {
+    background-color: #98d2eb;
+    color: white;
+    padding: 11px 22px;
+    border-radius: 4px;
+
+  }
+.btn-red:hover {
+    border: 1px solid;
+    color: white;
+    background-color: #bcd39c;
+    animation-direction: normal;
+  }
+
+.card-white {
+    background-color: #eef1ef;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    text-align: center;
+    width: 900px;
+    margin: 40px auto;
+  }
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline li {
+    display: inline-block;
+    padding: 16px 24px;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#picture_circle {
+    width: 100px;
+    border-radius: 50px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card-white {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card-white {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card-white {
+    width: 300px;
+  }
+}
